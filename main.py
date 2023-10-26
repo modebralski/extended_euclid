@@ -1,7 +1,7 @@
 def main():
-    a_value = 93
-    b_value = 41
-    print(calculate_x(*extended_euclid(a_value, b_value)))
+    a_value = 61
+    b_value = 17
+    print(f"x = {calculate_x(*extended_euclid(a_value, b_value))}")
 
 
 def extended_euclid(a_val, b_val):
