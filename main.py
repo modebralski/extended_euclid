@@ -1,3 +1,9 @@
+def main():
+    a_value = 93
+    b_value = 41
+    print(calculate_x(*extended_euclid(a_value, b_value)))
+
+
 def extended_euclid(a_val, b_val):
     a_value = mod_value = a_val
     b_value = b_val
@@ -27,12 +33,6 @@ def extended_euclid_step(mod_val, a_val, b_val, q_val=0, t0_val=0, t_val=1, firs
 
 def calculate_x(a_val, b_val, t_val):
     return (t_val * b_val - 1) / a_val
-
-
-def main():
-    a_value = 93
-    b_value = 41
-    print(calculate_x(*extended_euclid(a_value, b_value)))
 
 
 if __name__ == "__main__":
