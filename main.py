@@ -8,7 +8,7 @@ def extended_euclid(a_val, b_val):
     a_value = mod_value = a_val
     b_value = b_val
     a_value, b_value, t0_value, t_value, q_value = extended_euclid_step(
-        mod_value, a_value, b_value
+        mod_val=mod_value, a_val=a_value, b_val=b_value
     )
     r_value = b_value
     while r_value != 0:
